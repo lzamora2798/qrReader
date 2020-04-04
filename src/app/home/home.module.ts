@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
+import {NgxQRCodeModule} from 'ngx-qrcode2';
 
 @NgModule({
   imports: [
@@ -16,8 +17,9 @@ import { HomePage } from './home.page';
         path: '',
         component: HomePage
       }
-    ])
+    ]),NgxQRCodeModule
   ],
+
   declarations: [HomePage]
 })
 export class HomePageModule {}

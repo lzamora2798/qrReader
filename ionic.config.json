@@ -1,5 +1,7 @@
 {
   "name": "qReader",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
